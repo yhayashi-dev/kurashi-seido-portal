@@ -80,3 +80,6 @@ h1 { margin: 0; font-size: clamp(2.3rem, 7vw, 4.8rem); line-height: 1.15; letter
   .update-item { grid-template-columns: 1fr; gap: 4px; }
   .footer-inner { align-items: flex-start; flex-direction: column; }
 }
+
+/* Portal V1: purpose navigation and explicit availability */
+.catalog-intro{padding-block:36px 12px}.category-nav{display:flex;flex-wrap:wrap;gap:10px;margin-top:24px}.category-nav a{display:inline-flex;align-items:center;min-height:44px;padding:6px 16px;border:1px solid var(--border);border-radius:24px;background:white;color:var(--primary);text-decoration:none}.section[id]{scroll-margin-top:160px}.card h3{margin-top:0}.card .meta{flex-wrap:wrap}.card-link{display:inline-flex;align-items:center;min-height:44px;flex-wrap:wrap}.availability-note{font-size:.85rem;color:var(--muted)}a:focus-visible{outline:3px solid var(--primary);outline-offset:4px}.status-guide{max-width:780px}@media(prefers-reduced-motion:reduce){html{scroll-behavior:auto}}
